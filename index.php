@@ -1,4 +1,10 @@
+<style>
+	textarea {
+		width:100%;
+		height:48%;
+	}
 
+</style>
 <form method="POST" action="css2scss.php" accept-charset="UTF-8" class="ajax-converter-form">
                     <textarea name="css" rows="10" id="sender">
 html {
@@ -17,7 +23,7 @@ body {
 }
 
                     </textarea>
-					<textarea name="receiver" id="receiver"></textarea>
+					<textarea name="receiver" id="receiver" rows="10"></textarea>
 
                     <input type="submit" value="Convert" class="cform-submit">
                     </form>

@@ -1,4 +1,7 @@
 <?php
+
+header('Access-Control-Allow-Origin: *'); 
+
 require "scss.inc.php";
 $scss = new scssc();
 
