@@ -6,3 +6,11 @@ using the file scss.inc.php
 
 example.php takes a variable(name "css" in form textarea element) posted using ajax which contains the CSS code and converts to SCSS
 (courtsey https://github.com/ortic/css2scss)
+
+demo at:
+https://scsscompile.herokuapp.com/css2scss.html
+
+and 
+
+https://scsscompile.herokuapp.com/scsscompile.html
+
