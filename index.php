@@ -18,10 +18,7 @@ body {
 
                     </textarea>
 					<textarea name="receiver" id="receiver"></textarea>
-                    <div style="width: 100%; height: 90px; margin-bottom: 20px;">
-                       
-                 
-                    </div>
+
                     <input type="submit" value="Convert" class="cform-submit">
                     </form>
 <script src="jquery-3.2.1.js"></script>
