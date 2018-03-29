@@ -17,6 +17,7 @@ body {
 }
 
                     </textarea>
+					<textarea name="css" rows="10" id="receiver"></textarea>
                     <div style="width: 100%; height: 90px; margin-bottom: 20px;">
                        
                  
@@ -39,7 +40,7 @@ $(".ajax-converter-form").submit(function (event) {
             data: formData,
             success: function (data) {
 				console.log(data);
-                //$form.find("textarea#sender").val(data);
+                $form.find("textarea#receiver").val(data);
             },
             error: function (xhr, status, error) {
                 var response = JSON.parse(xhr.responseText);
